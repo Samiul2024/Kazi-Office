@@ -11,37 +11,48 @@ import GallerySection from "../sections/GallerySection";
 import LocationSection from "../sections/LocationSection";
 import FaqSection from "../sections/FaqSection";
 import CTASection from "../sections/CTASection";
+import FloatingContactHub from "../components/FloatingContactHub";
+import ScrollToTopButton from "../components/ScrollToTopButton";
+import SocialShareBar from "../components/SocialShareBar";
+
+
 
 export default function HomePage() {
-return (
-<>
-<SEO
-title="Kazi Office Boyra | Marriage Registration Khulna"
-description="Marriage registration services in Boyra Khulna for Muslim and Hindu communities."
-/>
+    return (
+        <>
+            <SEO
+                title="Kazi Office Boyra | Marriage Registration Khulna"
+                description="Marriage registration services in Boyra Khulna for Muslim and Hindu communities."
+            />
 
-<HeroSection />
+            <HeroSection />
 
-<StatsSection />
+            <StatsSection />
 
-<ServicesSection />
+            <ServicesSection />
 
-<DocumentsSection />
+            <DocumentsSection />
 
-<BusinessInfoSection />
+            <BusinessInfoSection />
 
-<GallerySection />
+            <GallerySection />
 
-<TestimonialsSection />
+            <TestimonialsSection />
 
-<LocationSection />
+            <LocationSection />
 
-<FaqSection />
+            <FaqSection />
 
-<CTASection />
+            <CTASection />
 
-<FloatingButtons />
+            <FloatingButtons />
 
-</>
-);
+            <SocialShareBar />
+
+            <FloatingContactHub />
+
+            <ScrollToTopButton />
+
+        </>
+    );
 }
