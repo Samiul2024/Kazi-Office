@@ -10,9 +10,9 @@ export default function ContactPage() {
 
         <p>Boyra, Khulna</p>
 
-        <p>Phone: +8801XXXXXXXXX</p>
+        <p>Phone: +8801714-969697</p>
 
-        <p>Email: info@kaziofficeboyra.com</p>
+        <p>Email: robiul.bin.ismail@gmail.com</p>
 
       </div>
 

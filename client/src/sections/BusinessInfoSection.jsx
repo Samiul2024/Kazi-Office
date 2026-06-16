@@ -42,7 +42,7 @@ Services
 
 {businessInfo.services.map(service=>(
 <li key={service}>
-? {service}
+ {service}
 </li>
 ))}
 

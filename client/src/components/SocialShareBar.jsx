@@ -1,41 +1,43 @@
 import {
-FaFacebookF,
-FaWhatsapp,
-FaLinkedinIn
+  FaFacebookF,
+  FaWhatsapp,
+  FaYoutube,
 } from "react-icons/fa";
 
-export default function SocialShareBar() {
+export default function SocialBar() {
+  return (
+    <div className="flex gap-4 justify-center py-10">
+      
+      {/* Facebook */}
+      <a
+        href="https://www.facebook.com/profile.php?id=61589520876344"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="p-3 rounded-full bg-blue-700 text-white"
+      >
+        <FaFacebookF />
+      </a>
 
-const url = window.location.href;
+      {/* WhatsApp */}
+      <a
+        href="https://wa.me/8801714969697"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="p-3 rounded-full bg-green-600 text-white"
+      >
+        <FaWhatsapp />
+      </a>
 
-return (
+      {/* YouTube */}
+      <a
+        href="https://youtube.com/@YOUR_CHANNEL"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="p-3 rounded-full bg-red-600 text-white"
+      >
+        <FaYoutube />
+      </a>
 
-<div className="flex gap-4 justify-center py-10">
-
-<a
-href={`https://www.facebook.com/sharer/sharer.php?u=${url}`}
-target="_blank"
-className="p-3 rounded-full bg-blue-700 text-white"
->
-<FaFacebookF />
-</a>
-
-<a
-href={`https://api.whatsapp.com/send?text=${url}`}
-target="_blank"
-className="p-3 rounded-full bg-green-600 text-white"
->
-<FaWhatsapp />
-</a>
-
-<a
-href={`https://www.linkedin.com/sharing/share-offsite/?url=${url}`}
-target="_blank"
-className="p-3 rounded-full bg-blue-500 text-white"
->
-<FaLinkedinIn />
-</a>
-
-</div>
-);
+    </div>
+  );
 }

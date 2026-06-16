@@ -31,27 +31,30 @@ className="flex flex-col gap-3 mb-3"
 >
 
 <a
-href="https://wa.me/8801700000000"
-target="_blank"
-className="bg-green-600 text-white p-4 rounded-full shadow-lg"
+  href="https://wa.me/8801714969697"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-green-600 text-white p-4 rounded-full shadow-lg"
 >
-<FaWhatsapp />
+  <FaWhatsapp />
 </a>
 
 <a
-href="https://m.me/yourpage"
-target="_blank"
-className="bg-blue-500 text-white p-4 rounded-full shadow-lg"
+  href="https://m.me/61589520876344"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-blue-500 text-white p-4 rounded-full shadow-lg"
 >
-<FaFacebookMessenger />
+  <FaFacebookMessenger />
 </a>
 
 <a
-href="https://facebook.com"
-target="_blank"
-className="bg-blue-700 text-white p-4 rounded-full shadow-lg"
+  href="https://www.facebook.com/profile.php?id=61589520876344"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-blue-700 text-white p-4 rounded-full shadow-lg"
 >
-<FaFacebookF />
+  <FaFacebookF />
 </a>
 
 </motion.div>

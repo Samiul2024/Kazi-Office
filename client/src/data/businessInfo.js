@@ -1,9 +1,9 @@
 export const businessInfo = {
 name:"Kazi Office Boyra",
 location:"Boyra, Khulna, Bangladesh",
-phone:"+8801700000000",
-whatsapp:"+8801700000000",
-email:"info@kaziofficeboyra.com",
+phone:"8801714-969697",
+whatsapp:"+8801714-969697",
+email:"robiul.bin.ismail@gmail.com",
 
 services:[
 "Muslim Marriage Registration",
