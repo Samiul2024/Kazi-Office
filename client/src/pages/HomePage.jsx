@@ -4,18 +4,20 @@ import FloatingButtons from "../components/FloatingButtons";
 import HeroSection from "../sections/HeroSection";
 import StatsSection from "../sections/StatsSection";
 import ServicesSection from "../sections/ServicesSection";
-import GallerySection from "../sections/GallerySection";
+import DocumentsSection from "../sections/DocumentsSection";
+import BusinessInfoSection from "../sections/BusinessInfoSection";
 import TestimonialsSection from "../sections/TestimonialsSection";
+import GallerySection from "../sections/GallerySection";
 import LocationSection from "../sections/LocationSection";
+import FaqSection from "../sections/FaqSection";
 import CTASection from "../sections/CTASection";
 
 export default function HomePage() {
 return (
 <>
-
 <SEO
-title="Kazi Office Boyra | Marriage Registration in Khulna"
-description="Trusted marriage registration services in Boyra, Khulna."
+title="Kazi Office Boyra | Marriage Registration Khulna"
+description="Marriage registration services in Boyra Khulna for Muslim and Hindu communities."
 />
 
 <HeroSection />
@@ -24,11 +26,17 @@ description="Trusted marriage registration services in Boyra, Khulna."
 
 <ServicesSection />
 
+<DocumentsSection />
+
+<BusinessInfoSection />
+
 <GallerySection />
 
 <TestimonialsSection />
 
 <LocationSection />
+
+<FaqSection />
 
 <CTASection />
 
