@@ -5,18 +5,18 @@ return (
 <div className="max-w-7xl mx-auto px-4">
 
 <h2 className="text-4xl font-bold text-center mb-12">
-Our Location
+Find Us
 </h2>
 
-<div className="bg-white rounded-xl p-10 text-center shadow">
+<div className="rounded-xl overflow-hidden shadow-lg">
 
-<p className="text-xl">
-Boyra, Khulna, Bangladesh
-</p>
-
-<p className="mt-4">
-Google Map will be embedded here.
-</p>
+<iframe
+title="location"
+className="w-full h-[450px]"
+loading="lazy"
+allowFullScreen
+src="https://maps.google.com/maps?q=boyra%20khulna&t=&z=13&ie=UTF8&iwloc=&output=embed"
+/>
 
 </div>
 
