@@ -1,6 +1,8 @@
+import { businessInfo } from "../data/businessInfo";
+
 export default function ContactPage() {
   return (
-    <div className="max-w-7xl mx-auto px-4 py-20">
+    <div className="max-w-7xl min-h-screen mx-auto px-4 py-20">
 
       <h1 className="text-5xl font-bold mb-8">
         Contact Us
@@ -10,9 +12,13 @@ export default function ContactPage() {
 
         <p>Boyra, Khulna</p>
 
-        <p>Phone: +8801714-969697</p>
-
-        <p>Email: robiul.bin.ismail@gmail.com</p>
+        <a
+          href="tel:+8801714969697"
+        >call : 01714969697
+        </a>
+        <p className="mb-4">
+          <b>Email:</b> {businessInfo.email}
+        </p>
 
       </div>
 

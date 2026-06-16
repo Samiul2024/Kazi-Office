@@ -13,7 +13,7 @@ Contact Kazi Office Boyra today.
 </p>
 
 <a
-href="tel:+8801700000000"
+href="tel:+8801714969697"
 className="inline-block mt-8 bg-white text-green-700 px-8 py-4 rounded-xl font-bold"
 >
 Call Now
