@@ -7,7 +7,7 @@ return (
 <div className="max-w-7xl mx-auto px-4">
 
 <h2 className="text-4xl font-bold text-center mb-12">
-Our Services
+সেবা সমূহ
 </h2>
 
 <div className="grid md:grid-cols-3 gap-8">

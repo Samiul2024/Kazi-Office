@@ -1,16 +1,24 @@
 export const services = [
 {
-title:"Muslim Marriage Registration",
-description:"Official Nikah registration and documentation."
+title:"মুসলিম বিবাহ নিবন্ধন ",
+description:"সযত্নে মুসলিম বিবাহ রেজিস্ট্রি করা হয়."
 },
 {
-title:"Hindu Marriage Registration",
-description:"Marriage registration assistance and legal records."
+title:"মুসলিম তালাক  নিবন্ধন ",
+description:"সযত্নে মুসলিম তালাক রেজিস্ট্রি করা হয়."
 },
 {
-title:"Marriage Certificate Support",
-description:"Certificate correction and reissue support."
-}
+title:"হিন্দু বিবাহ নিবন্ধন ",
+description:"সযত্নে হিন্দু বিবাহ রেজিস্ট্রি করা হয়."
+},
+{
+title:"বিবাহের সার্টিফিকেট ",
+description:" বিবাহের সার্টিফিকেট ইংলিশ ,বাংলা, বিদেশের ক্ষেত্রে সহযোগিতা করা হয় , ফরেন মিনিস্ট্রি করা হয়."
+},
+{
+title:"বিবাহের কাবিননামা ",
+description:" কাবিননামা অতি দ্রুত প্রদান করা হয়."
+},
 ];
 
 export const testimonials = [

@@ -1,59 +1,64 @@
 import { businessInfo } from "../data/businessInfo";
 
 export default function BusinessInfoSection() {
-return (
-<section className="py-24">
+    return (
+        <section className="py-24">
 
-<div className="max-w-7xl mx-auto px-4">
+            <div className="max-w-7xl mx-auto px-4">
+                <h2 className="text-4xl text-center font-bold mb-8">
+                    অফিস ও সেবাসমূহ
+                </h2>
+                <h2 className="text-4xl font-bold mb-8">
+                    অফিস এড্রেস
+                </h2>
 
-<h2 className="text-4xl font-bold mb-8">
-Office Information
-</h2>
+                <div className="grid md:grid-cols-2 gap-10">
 
-<div className="grid md:grid-cols-2 gap-10">
+                    <div>
 
-<div>
+                        <p className="mb-4">
+                            <b>Office:</b> {businessInfo.name}
+                        </p>
 
-<p className="mb-4">
-<b>Office:</b> {businessInfo.name}
-</p>
+                        <p className="mb-4">
+                            <b>Location:</b> {businessInfo.location}
+                        </p>
 
-<p className="mb-4">
-<b>Location:</b> {businessInfo.location}
-</p>
+                        <p className="mb-4">
+                            <b>Phone:</b> {businessInfo.phone1}
+                        </p>
+                        <p className="mb-4">
+                            <b>Phone:</b> {businessInfo.phone2}
+                        </p>
 
-<p className="mb-4">
-<b>Phone:</b> {businessInfo.phone}
-</p>
+                        <p className="mb-4">
+                            <b>Email:</b> {businessInfo.email}
+                        </p>
 
-<p className="mb-4">
-<b>Email:</b> {businessInfo.email}
-</p>
+                    </div>
 
-</div>
+                    <div>
 
-<div>
+                        <h3 className="text-2xl font-bold mb-4">
+                            Services
+                        </h3>
 
-<h3 className="text-2xl font-bold mb-4">
-Services
-</h3>
+                        <ul className="space-y-3">
 
-<ul className="space-y-3">
+                            {businessInfo.services.map(service => (
+                                <li key={service}>
+                                    {service}
+                                </li>
+                            ))}
 
-{businessInfo.services.map(service=>(
-<li key={service}>
- {service}
-</li>
-))}
+                        </ul>
 
-</ul>
+                    </div>
 
-</div>
+                </div>
 
-</div>
+            </div>
 
-</div>
-
-</section>
-);
+        </section>
+    );
 }

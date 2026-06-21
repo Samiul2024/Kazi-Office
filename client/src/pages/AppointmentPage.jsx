@@ -4,7 +4,7 @@ export default function AppointmentPage() {
 return (
 <>
 <SEO
-title="Appointment | Kazi Office Boyra"
+title="Appointment | Kazi Office Boyra | কাজী অফিস খুলনা"
 description="Book marriage registration consultation."
 />
 

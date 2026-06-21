@@ -18,7 +18,7 @@ content={description}
 {JSON.stringify({
 "@context":"https://schema.org",
 "@type":"LocalBusiness",
-name:"Kazi Office Boyra",
+name:"কাজী অফিস খুলনা",
 address:{
 "@type":"PostalAddress",
 addressLocality:"Khulna",

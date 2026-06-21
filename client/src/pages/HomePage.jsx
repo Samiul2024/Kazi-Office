@@ -21,7 +21,7 @@ export default function HomePage() {
 return (
 <>
 <SEO
-title="Kazi Office Boyra | Marriage Registration Khulna"
+title="কাজী অফিস খুলনা | Kazi Office Boyra | Marriage Registration Khulna"
 description="Marriage registration services in Boyra Khulna for Muslim and Hindu communities."
 />
 
@@ -41,7 +41,7 @@ description="Marriage registration services in Boyra Khulna for Muslim and Hindu
 
 <LocationSection />
 
-<FaqSection />
+{/* <FaqSection /> */}
 
 <CTASection />
 

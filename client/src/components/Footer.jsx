@@ -4,15 +4,18 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 py-10 text-center">
 
         <h3 className="text-2xl font-bold mb-4">
-          Kazi Office Boyra
+          কাজী অফিস খুলনা
         </h3>
 
+        <p>
+          বয়রা বাজার, জিপিও  9000, সোনাডাঙ্গা, খুলনা
+        </p>
         <p>
           Marriage Registration Services in Khulna
         </p>
 
         <p className="mt-4 text-sm text-slate-400">
-          2026 All Rights Reserved
+           2026 All Rights Reserved
         </p>
 
       </div>

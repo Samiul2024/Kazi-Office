@@ -5,12 +5,9 @@ return (
 <div className="max-w-5xl mx-auto px-4 text-center">
 
 <h2 className="text-5xl font-bold mb-6">
-Need Marriage Registration Assistance?
+বিবাহ, তালাক সম্পর্কে যেকোনো তথ্যের জন্য
 </h2>
 
-<p className="text-xl">
-Contact Kazi Office Boyra today.
-</p>
 
 <a
 href="tel:+8801714969697"
@@ -18,6 +15,11 @@ className="inline-block mt-8 bg-white text-green-700 px-8 py-4 rounded-xl font-b
 >
 Call Now
 </a>
+
+<p className="pt-2 text-xl">
+ কাজী অফিস খুলনা .
+</p>
+
 
 </div>
 

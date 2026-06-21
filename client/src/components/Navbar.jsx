@@ -8,7 +8,7 @@ export default function Navbar() {
         
         <div>
           <h1 className="font-bold text-green-700 text-xl">
-            Kazi Office Boyra
+            কাজী অফিস খুলনা
           </h1>
         </div>
 
@@ -17,7 +17,7 @@ export default function Navbar() {
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/services">Services</Link>
-          <Link to="/appointment">Appointment</Link>
+          {/* <Link to="/appointment">Appointment</Link> */}
           <Link to="/contact">Contact</Link>
         </nav>
 

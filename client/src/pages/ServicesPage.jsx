@@ -1,27 +1,36 @@
+import { services } from "../data/siteData";
+
 export default function ServicesPage() {
   return (
-    <div className="min-h-screen max-w-7xl mx-auto px-4 py-20">
-
-      <h1 className="text-5xl font-bold mb-8">
-        Our Services
-      </h1>
-
-      <div className="grid md:grid-cols-3 gap-8">
-
-        <div className="border p-6 rounded-xl">
-          Muslim Marriage Registration
-        </div>
-
-        <div className="border p-6 rounded-xl">
-          Hindu Marriage Registration
-        </div>
-
-        <div className="border p-6 rounded-xl">
-          Certificate Reissue
-        </div>
-
-      </div>
-
-    </div>
+  <section className="py-24">
+  
+  <div className="max-w-7xl mx-auto px-4">
+  
+  <h2 className="text-4xl font-bold text-center mb-12">
+  সেবা সমূহ
+  </h2>
+  
+  <div className="grid md:grid-cols-3 gap-8">
+  
+  {services.map(service=>(
+  <div key={service.title} className="border rounded-xl p-8 shadow-sm hover:shadow-lg transition">
+  
+  <h3 className="text-xl font-bold mb-4">
+  {service.title}
+  </h3>
+  
+  <p>
+  {service.description}
+  </p>
+  
+  </div>
+  ))}
+  
+  </div>
+  
+  </div>
+  
+  </section>
   );
-}
+  }
+  

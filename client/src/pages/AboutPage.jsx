@@ -3,7 +3,7 @@ export default function AboutPage() {
     <div className="min-h-screen max-w-7xl mx-auto px-4 py-20">
 
       <h1 className="text-5xl font-bold mb-8">
-        About Kazi Office Boyra
+        About কাজী অফিস খুলনা
       </h1>
 
       <p className="text-lg text-gray-700 leading-8">
