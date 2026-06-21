@@ -27,7 +27,7 @@ initial={{ opacity:0,y:50 }}
 animate={{ opacity:1,y:0 }}
 exit={{ opacity:0,y:50 }}
 
-className="flex flex-col gap-3 mb-3"
+className="flex flex-col gap-2 mb-3"
 >
 
 <a
@@ -68,7 +68,7 @@ className="flex flex-col gap-3 mb-3"
 
 onClick={()=>setOpen(!open)}
 
-className="bg-green-700 text-white p-5 rounded-full shadow-xl"
+className="bg-green-700 text-white p-4 rounded-full shadow-xl"
 >
 
 <FaComments />

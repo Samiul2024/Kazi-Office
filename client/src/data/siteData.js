@@ -31,7 +31,7 @@ name:"Khulna Resident",
 review:"Very helpful and trustworthy."
 },
 {
-name:"Boyra Family",
+name:"প্রবাসী",
 review:"Quick assistance and proper documentation."
 }
 ];

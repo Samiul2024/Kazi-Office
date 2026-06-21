@@ -8,14 +8,14 @@ export default function BusinessInfoSection() {
                 <h2 className="text-4xl text-center font-bold mb-8">
                     অফিস ও সেবাসমূহ
                 </h2>
-                <h2 className="text-4xl font-bold mb-8">
-                    অফিস এড্রেস
-                </h2>
+
 
                 <div className="grid md:grid-cols-2 gap-10">
 
                     <div>
-
+                        <h2 className="text-2xl font-bold mb-4">
+                            অফিস এড্রেস
+                        </h2>
                         <p className="mb-4">
                             <b>Office:</b> {businessInfo.name}
                         </p>
@@ -40,7 +40,7 @@ export default function BusinessInfoSection() {
                     <div>
 
                         <h3 className="text-2xl font-bold mb-4">
-                            Services
+                            সেবা সমূহ
                         </h3>
 
                         <ul className="space-y-3">

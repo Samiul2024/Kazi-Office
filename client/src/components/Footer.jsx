@@ -10,16 +10,16 @@ export default function Footer() {
         <p>
           বয়রা বাজার, জিপিও  9000, সোনাডাঙ্গা, খুলনা
         </p>
-        <p>
+        <p className="py-2">
           Marriage Registration Services in Khulna
         </p>
 
         <p className="mt-4 text-sm text-slate-400">
-           2026 All Rights Reserved
+          2026 All Rights Reserved
         </p>
 
       </div>
-      <div className="flex flex-wrap items-center py-4 justify-center gap-2 text-slate-500">
+      <div className="flex flex-wrap items-center pt-4 justify-center gap-2 text-slate-500">
         <span>Developed by</span>
 
         <a
@@ -39,6 +39,10 @@ export default function Footer() {
         >
           WhatsApp
         </a>
+      </div>
+      <div className="flex flex-wrap text-[11px] items-center pb-2 justify-center gap-1 text-slate-500">
+        <p className="">This is a MERN WebSite</p>
+        <p className="">Contact the Developer to Have your Own Site</p>
       </div>
 
     </footer>
