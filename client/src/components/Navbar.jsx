@@ -19,6 +19,7 @@ export default function Navbar() {
           <Link to="/services">Services</Link>
           {/* <Link to="/appointment">Appointment</Link> */}
           <Link to="/contact">Contact</Link>
+          <Link to="/gallery">Gallery</Link>
         </nav>
 
         {/* Mobile Navigation */}

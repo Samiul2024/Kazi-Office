@@ -1,5 +1,8 @@
 export default function GallerySection() {
 const images = [
+  "https://res.cloudinary.com/dejhl0l7a/image/upload/v1783244357/kazi1_hnmrwi.jpg",
+  "https://res.cloudinary.com/dejhl0l7a/image/upload/v1783244357/kazi2_utupti.jpg",
+  "https://res.cloudinary.com/dejhl0l7a/image/upload/v1783244357/kazi3_tg4akc.jpg",
 "https://res.cloudinary.com/dejhl0l7a/image/upload/q_auto/f_auto/v1782038378/kazi-office_d48qdo.jpg",
 "",
 null,

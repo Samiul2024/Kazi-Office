@@ -5,6 +5,8 @@ import AboutPage from "../pages/AboutPage";
 import ServicesPage from "../pages/ServicesPage";
 import ContactPage from "../pages/ContactPage";
 import AppointmentPage from "../pages/AppointmentPage";
+import GallerySection from "../sections/GallerySection";
+import Gallery from "../pages/Gallery";
 
 
 export default function AppRouter() {
@@ -15,6 +17,8 @@ export default function AppRouter() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/gallery" element={<Gallery />} />
+
         <Route path="/appointment" element={<AppointmentPage />} />
       </Route>
     </Routes>
