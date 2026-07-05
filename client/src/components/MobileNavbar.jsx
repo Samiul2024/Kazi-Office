@@ -10,6 +10,7 @@ const links = [
 { name:"Home", path:"/" },
 { name:"About", path:"/about" },
 { name:"Services", path:"/services" },
+{ name:"gallery", path:"/gallery" },
 // { name:"Appointment", path:"/appointment" },
 { name:"Contact", path:"/contact" }
 ];
