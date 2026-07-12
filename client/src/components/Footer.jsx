@@ -15,12 +15,12 @@ export default function Footer() {
         </p>
 
         <p className="mt-4 text-sm text-slate-400">
-          2026 All Rights Reserved
+          &copy;  2026 All Rights Reserved
         </p>
 
       </div>
       <div className="flex flex-wrap items-center pt-4 justify-center gap-2 text-slate-500">
-        <span>Developed by</span>
+        <span>Design,Development,Deployment & Google indexing by</span>
 
         <a
           href="https://mdsamiullahossen.vercel.app/"
@@ -37,12 +37,12 @@ export default function Footer() {
           rel="noreferrer"
           className="text-green-600 hover:text-green-500"
         >
-          WhatsApp
+          {">"}&gt; WhatsApp
         </a>
       </div>
       <div className="flex flex-wrap text-[11px] items-center pb-2 justify-center gap-1 text-slate-500">
-        <p className="">This is a MERN WebSite</p>
-        <p className="">Contact the Developer to Have your Own Site</p>
+        <p className="">This is a MERN WebSite.</p>
+        <p className="">Contact the Developer to Have your Own Site Now.</p>
       </div>
 
     </footer>
